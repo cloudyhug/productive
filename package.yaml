@@ -1,0 +1,22 @@
+name:                productive
+version:             1.0
+github:              "cloudyhug/productive"
+license:             MIT
+author:              "cloudyhug"
+maintainer:          "cloudyhug@protonmail.ch"
+copyright:           "cloudyhug"
+
+extra-source-files:
+- README.md
+
+description:         Please see the README on GitHub at <https://github.com/cloudyhug/productive#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- process >= 1.6.9.0
+- directory >= 1.3.6.0
+
+executables:
+  productive-exe:
+    main:                Main.hs
+    source-dirs:         app
